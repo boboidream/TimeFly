@@ -1,6 +1,6 @@
 module.exports = {
-  title: '一肩月光 · 笔记',
-  description: 'Live and learn.',
+  title: '一肩月光 · 所读所看',
+  description: 'Read and See.',
   head: [
     ['link', { rel: 'icon', href: 'https://www.wenboz.com/favicon.ico' }]
   ],
@@ -14,7 +14,7 @@ module.exports = {
     docsDir: '/',
     lastUpdated: 'Last Updated',
   },
-  plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true}], 'rpurl'],
+  plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true, "stripNumbers": false}], 'rpurl'],
   chainWebpack: (config, isServer) => {
     const inlineLimit = 10000
     config.module.rule('images')
