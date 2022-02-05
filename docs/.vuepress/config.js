@@ -14,7 +14,7 @@ module.exports = {
     docsDir: '/',
     lastUpdated: 'Last Updated',
   },
-  plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true, "stripNumbers": false}], 'rpurl'],
+  plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true, "stripNumbers": false, "maxLevel": 1}], 'rpurl'],
   chainWebpack: (config, isServer) => {
     const inlineLimit = 10000
     config.module.rule('images')
