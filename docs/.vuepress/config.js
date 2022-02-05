@@ -4,14 +4,14 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: 'https://www.wenboz.com/favicon.ico' }]
   ],
-  base: '/',
+  base: '/TimeFly/',
   themeConfig: {
     nav: [
       { text: 'Blog', link: 'https://www.wenboz.com' },
       { text: 'Github', link: 'https://github.com/boboidream/note' },
     ],
     docsRepo: 'boboidream/TimeFly',
-    docsDir: '/TimeFly/',
+    docsDir: '/',
     lastUpdated: 'Last Updated',
   },
   plugins: ['permalink-pinyin', ['autobar', {'pinyinNav': true}], 'rpurl'],
