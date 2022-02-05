@@ -1,4 +1,5 @@
 ---
+home: false
 navbar: false
 layout: home
 pageClass: home-page-class
