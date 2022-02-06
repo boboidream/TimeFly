@@ -17,6 +17,7 @@
     "vuepress": "^1.7.1",
     "vuepress-plugin-autobar": "github:boboidream/vuepress-bar",
     "vuepress-plugin-permalink-pinyin": "^1.0.0",
-    "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl"
+    "vuepress-plugin-rpurl": "github:boboidream/vuepress-plugin-rpurl",
+    "vuepress-plugin-fulltext-search": "^2.2.1"
   }
 }
