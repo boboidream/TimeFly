@@ -4,7 +4,7 @@ module.exports = {
   head: [
     ['link', { rel: 'icon', href: 'https://www.wenboz.com/favicon.ico' }]
   ],
-  base: '/TimeFly/',
+  base: '/',
   themeConfig: {
     nav: [
       { text: 'Blog', link: 'https://www.wenboz.com' },
