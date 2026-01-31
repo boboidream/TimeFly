@@ -18,7 +18,7 @@ jobs:
         cache: 'yarn'            # 内置缓存依赖项
 
     - name: Install dependencies
-      run: yarn --frozen-lockfile
+      run: yarn
 
     - name: Build project
       run: yarn build
