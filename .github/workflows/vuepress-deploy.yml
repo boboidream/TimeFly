@@ -11,10 +11,6 @@ jobs:
       uses: actions/setup-node@v2-beta
       with:
         node-version: 14.x
-    - uses: actions/cache@v3
-      with:
-        path: '**/node_modules'
-        key: ${{ runner.os }}-modules-${{ hashFiles('**/yarn.lock') }}
     - name: Build and Deploy
       uses: IT4Change/vuepress-build-and-deploy@master
       env:
